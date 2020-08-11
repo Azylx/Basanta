@@ -110,7 +110,7 @@ header{
     position: fixed;
     top: -100%;
     z-index: 50;
-    background-color: #16162d;
+    background-color: #0a1c06;
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
     transition: all 650ms cubic-bezier(1, 0, 0, 1);
@@ -226,17 +226,6 @@ svg{font-weight:bold;max-width:450px;height:auto;}
     right: 20rem;
 }
 
-
-.landing-text h1{
-    font-size: 20rem;
-    font-family: 'The Historia Demo', sans-serif;
-    background: linear-gradient(to top, #ffe838, #fd57bf);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color:transparent;
-    padding: 1rem;
-    user-select: none;
-}
 
 .landing-text h6{
     font-size: 2rem;
