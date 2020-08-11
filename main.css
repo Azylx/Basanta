@@ -110,7 +110,7 @@ header{
     position: fixed;
     top: -100%;
     z-index: 50;
-    background-color: #162d23;
+    background-color: #16162d;
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
     transition: all 650ms cubic-bezier(1, 0, 0, 1);
@@ -459,8 +459,8 @@ svg{font-weight:bold;max-width:450px;height:auto;}
 
  .contact{
     background-color: #13332b61;
-    width: 77%;
     margin: 0 auto;
+    display: flex;
  }
 
  form{
@@ -671,6 +671,7 @@ svg{font-weight:bold;max-width:450px;height:auto;}
 
     .timeline .date::before{
         font-size: 1.4rem;
+        display: contents;
     }
 
     .form{
