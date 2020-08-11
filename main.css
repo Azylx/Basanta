@@ -110,7 +110,7 @@ header{
     position: fixed;
     top: -100%;
     z-index: 50;
-    background-color: #16162d;
+    background-color: #162d23;
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
     transition: all 650ms cubic-bezier(1, 0, 0, 1);
