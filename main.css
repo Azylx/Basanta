@@ -3,23 +3,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 html{
     font-size: 10px;
     font-family: 'Roboto' , sans-serif;
     color: #eee;
+    
 }
 
 body{
     width: 100%;
     height: 100%;
-    background: url("images/sitebg.jpg") no-repeat center fixed;
+    background: url("images/cube.png") no-repeat center fixed;
     background-size: cover;
 }
 
 section{
     padding: 6rem;
+    overflow-x: hidden;
 }
 
 a{
@@ -143,7 +146,7 @@ li{
 
 .nav-link:hover,
 .nav-link:focus{
-    background: linear-gradient(to top, #ffe838, #fd57bf);
+    background: linear-gradient(to right, #028b69, #b5ff03);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color:transparent;
@@ -174,7 +177,7 @@ li{
 }
 
 .bar{
-    background: linear-gradient(to right, #ffe838, #fd57bf);
+    background: linear-gradient(to right, #028b69, #b5ff03);
     width: 100%;
     height: 4px;
     border-radius: .8rem;
@@ -212,6 +215,17 @@ li{
     text-align: center;
     z-index: 1;
 }
+svg{font-weight:bold;max-width:450px;height:auto;}
+
+.wave{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 28rem;
+    right: 20rem;
+}
+
 
 .landing-text h1{
     font-size: 20rem;
@@ -297,6 +311,8 @@ li{
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     grid-gap: 2.5rem;
     text-align: center;
+    position: relative;
+    right: 1rem;
 }
 
 .skill{
@@ -379,7 +395,7 @@ li{
 /*Start timeline*/
 
 .timeline ul{
-    border-left: 4px solid #ffe838;
+    border-left: 4px solid #387163;
     border-radius: .8rem;
     margin: 0 auto;
     background: rgba(0, 0, 0, 0.05);
@@ -429,7 +445,7 @@ li{
 
 .timeline .date::after{
     content: '';
-    box-shadow: 0 0 0 4px #fd57bf;
+    box-shadow: 0 0 0 4px #b5ff03;
     border-radius: 100%;
     left: -8rem;
     height: 1.5rem;
@@ -442,12 +458,16 @@ li{
 /*Start contact*/
 
  .contact{
-     background-color: #221e3f;
+    background-color: #13332b61;
+    width: 77%;
+    margin: 0 auto;
  }
 
  form{
-     width: 70%;
+     width: 50vw;
      margin: 0 auto;
+     position: relative;
+     right: 2rem;
  }
 
  form label{
@@ -486,7 +506,7 @@ li{
 .copyright{
     width: 100%;
     text-align: center;
-    background-color: #16162d;
+    background-color: #134d3f61;
     padding: 2rem 0;
     position: relative;
     top: 6rem;
@@ -521,7 +541,7 @@ li{
 
 @keyframes pulse{
     0%{
-        box-shadow: 0 0 0 0 rgba(253, 87, 191, 0.99);
+        box-shadow:0 0 0 0 rgb(235 253 87 / 99%);
     }
     70%{
         box-shadow: 0 0 0 2rem rgba(253, 87, 191, 0);
@@ -537,8 +557,14 @@ li{
 
 @media screen and (max-width:768px){
     body{
-        background: url("images/sitebg2.jpg") no-repeat center fixed;
+        background: url("images/cube.png") no-repeat center fixed;
         background-size: cover;
+      
+    }
+
+    .wave{
+        position: relative;
+        left: 0.5rem;
     }
 
     .landing-text h1{
@@ -648,7 +674,7 @@ li{
     }
 
     .form{
-        width: 100%;
+        width: 80vw;
     }
 
     .up{
@@ -659,7 +685,7 @@ li{
 }
 /*End media queries*/
 
-/*Additonal*/
+/* Start Additonal*/
 
 .dev{
     background-image: url('images/sitebg.jpg') no-repeat fixed;
@@ -674,22 +700,21 @@ li{
     border-radius: 15px;
 }
 
-
 .button {
+    display: flex;
     border-radius: 4px;
-    background-color: #fd57bf;
+    background-color: #4267b2;
     border: none;
     color: #FFFFFF;
     text-align: center;
     font-size: 18px;
-    padding: 10px 0;
-    width: 130px;
+    padding: 10px;
+    width: 140px;
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
-    position: relative;
-    left: 50rem;
-    top: 10px;
+    justify-content: center;
+    margin: 0 auto;
   }
   
   .button span {
@@ -716,3 +741,5 @@ li{
     opacity: 1;
     right: 0;
   }
+
+/*End Additional*/

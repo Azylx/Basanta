@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
     <title>Basanta Shrestha</title>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -37,11 +37,54 @@
                 </li>
             </ul>
         </nav>
-
-        <div class="landing-text">
-            <h1>Basanta Shrestha</h1>
-            <h6> Web Designer & Developer</h6>
+        <div class="wave">
+        <svg viewbox="0 0 100 20">
+            <defs>
+              <linearGradient id="gradient" x1="0" x2="0" y1="0" y2="1">
+                <stop offset="5%" stop-color="#028b69"/>
+                <stop offset="95%" stop-color="#fff"/>
+              </linearGradient>
+              <pattern id="wave" x="0" y="0" width="120" height="20" patternUnits="userSpaceOnUse">
+                <path id="wavePath" d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z" mask="url(#mask)" fill="url(#gradient)"> 
+                  <animateTransform
+                      attributeName="transform"
+                      begin="0s"
+                      dur="1.5s"
+                      type="translate"
+                      from="0,0"
+                      to="40,0"
+                      repeatCount="indefinite" />
+                </path>
+              </pattern>
+            </defs>
+            <text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#wave)"  fill-opacity="0.6">BASANTA</text>
+            <text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#gradient)" fill-opacity="0.1">BASANTA</text>
+          </svg>
+          <svg viewbox="0 0 100 20">
+            <defs>
+              <linearGradient id="gradient" x1="0" x2="0" y1="0" y2="1">
+                <stop offset="5%" stop-color="#028b69"/>
+                <stop offset="95%" stop-color="#fff"/>
+              </linearGradient>
+              <pattern id="wave" x="0" y="0" width="120" height="20" patternUnits="userSpaceOnUse">
+                <path id="wavePath" d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z" mask="url(#mask)" fill="url(#gradient)"> 
+                  <animateTransform
+                      attributeName="transform"
+                      begin="0s"
+                      dur="1.5s"
+                      type="translate"
+                      from="0,0"
+                      to="40,0"
+                      repeatCount="indefinite" />
+                </path>
+              </pattern>
+            </defs>
+            <text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#wave)"  fill-opacity="0.6"> SHRESTHA</text>
+            <text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#gradient)" fill-opacity="0.1"> SHRESTHA</text>
+          </svg>
+          <h6 style="font-size: 20px;color: #6d90c5;"> Web Designer & Developer</h6>
         </div>
+          
 
     </header>
     <section class="about" id="about">
@@ -231,7 +274,7 @@
             <div class="up" id="up">
                 <i class="fas fa-chevron-up"></i>
             </div>
-            <p>&copy; 2020 Basant Shrestha</p>
+            <p>&copy; 2020 Basanta Shrestha</p>
         </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
