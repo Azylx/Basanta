@@ -458,6 +458,7 @@ svg{font-weight:bold;max-width:450px;height:auto;}
      background-color: #13332b61;
      padding: 4rem 3rem;
      border-radius: 1rem;
+     width: 50vw;
  }
 
  form label{
@@ -485,7 +486,9 @@ svg{font-weight:bold;max-width:450px;height:auto;}
  }
 
  input[type="submit"]:hover{
+
      color: #030303;
+
      background-color: #ffe838;
  }
 
