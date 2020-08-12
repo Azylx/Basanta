@@ -475,7 +475,7 @@ svg{font-weight:bold;max-width:450px;height:auto;}
      outline-color: #fd57bf;
  }
 
- input[type="sublit"]{
+ input[type="submit"]{
      width: initial;
      background-color: #fd57bf;
      color: #eee;
