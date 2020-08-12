@@ -454,11 +454,8 @@ svg{font-weight:bold;max-width:450px;height:auto;}
     display: flex;
  }
 
- form{
-     width: 50vw;
+ form{   
      margin: 0 auto;
-     position: relative;
-     right: 2rem;
  }
 
  form label{
