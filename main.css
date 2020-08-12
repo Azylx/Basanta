@@ -449,13 +449,15 @@ svg{font-weight:bold;max-width:450px;height:auto;}
 /*Start contact*/
 
  .contact{
-    background-color: #13332b61;
     margin: 0 auto;
     display: flex;
  }
 
  form{   
      margin: 0 auto;
+     background-color: #13332b61;
+     padding: 4rem 3rem;
+     border-radius: 1rem;
  }
 
  form label{
