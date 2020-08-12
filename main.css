@@ -474,7 +474,7 @@ svg{font-weight:bold;max-width:450px;height:auto;}
      outline-color: #fd57bf;
  }
 
- input[type="sublit"]{
+ input[type="submit"]{
      width: initial;
      background-color: #fd57bf;
      color: #eee;
@@ -484,8 +484,8 @@ svg{font-weight:bold;max-width:450px;height:auto;}
      transition: background-color 650ms;
  }
 
- input[type="sublit"]:hover{
-     color: #221e3f;
+ input[type="submit"]:hover{
+     color: #030303;
      background-color: #ffe838;
  }
 
