@@ -485,7 +485,7 @@ svg{font-weight:bold;max-width:450px;height:auto;}
      transition: background-color 650ms;
  }
 
- input[type="sublit"]:hover{
+ input[type="submit"]:hover{
      color: #221e3f;
      background-color: #ffe838;
  }
